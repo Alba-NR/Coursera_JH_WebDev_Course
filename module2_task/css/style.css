@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Geneva, Helvetica, sans-serif; 
+}
+
+#header{
+    text-align: center;
+    margin: 40px;
+}
+
+.container{
+    margin: 20px;
+}
+
+.itemcard{
+    background-color: lightgrey;
+    border: 2px solid black;
+    margin: 10px 0 10px 0;
+    
+}
+
+.itemcard > p {
+    clear: both;
+    margin: 20px;
+}
+
+.card-title{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 0;
+    right: 0;
+    float: right;
+    font-weight: bold;
+}
+
+/* set card title bg colours*/
+#chicken{
+    background-color: red;
+}
+#beef{
+    background-color: orange;
+}
+#sushi{
+    background-color: yellow;
+}
