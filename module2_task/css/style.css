@@ -2,20 +2,21 @@
     font-family: Arial, Geneva, Helvetica, sans-serif; 
 }
 
+/*--- Setting the general styling ---*/
+
+.row{
+    width: 100%;
+}
+
 #header{
     text-align: center;
     margin: 40px;
 }
 
-.container{
-    margin: 20px;
-}
-
 .itemcard{
+    position: relative;
     background-color: lightgrey;
     border: 2px solid black;
-    margin: 10px 0 10px 0;
-    
 }
 
 .itemcard > p {
@@ -44,4 +45,29 @@
 }
 #sushi{
     background-color: yellow;
+}
+
+/*--- Making it responsive ---*/
+
+/*--- For Tablet ---*/
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6, .col-md-12{
+        float: left;
+    }
+
+    .col-md-6{
+        width: 50%;
+    }
+
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+/*--- For Desktop ---*/
+@media (min-width: 992px){
+    .col-lg-4{
+        width: 33%;
+        float: left;
+    }
 }
