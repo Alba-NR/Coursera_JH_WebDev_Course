@@ -1,21 +1,33 @@
 *{
-    font-family: Arial, Geneva, Helvetica, sans-serif; 
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /*--- Setting the general styling ---*/
+
+body{
+    background-color: #30475e;
+}
+
+#header{
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
 
 .row{
     width: 100%;
 }
 
-#header{
-    text-align: center;
-    margin: 40px;
+div.row > div{
+    padding: 20px;
 }
 
 .itemcard{
     position: relative;
-    background-color: lightgrey;
+    background-color: #fbc687;
     border: 2px solid black;
 }
 
@@ -38,13 +50,13 @@
 
 /* set card title bg colours*/
 #chicken{
-    background-color: red;
+    background-color: #ec8166;
 }
 #beef{
-    background-color: orange;
+    background-color: #f1935c;
 }
 #sushi{
-    background-color: yellow;
+    background-color: #cf81a2;
 }
 
 /*--- Making it responsive ---*/
@@ -53,6 +65,7 @@
 @media (min-width: 768px) and (max-width: 991px){
     .col-md-6, .col-md-12{
         float: left;
+        padding: 20px;
     }
 
     .col-md-6{
@@ -67,7 +80,8 @@
 /*--- For Desktop ---*/
 @media (min-width: 992px){
     .col-lg-4{
-        width: 33%;
+        width: 33.33%;
         float: left;
+        padding: 20px;
     }
 }
