@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--- Setting the general styling ---*/
+
+body{
+    background-color: #30475e;
+}
+
+/*-- NavBar styles --*/
+#headerNav{
+    background-color: #577592;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+#brand-nav:link{
+    text-decoration: none;
+    color: white;
+}
+
+/*-- Content & card styles--*/
+h1{
+    margin-top: 20px;
+    color: white;
+}
+
+.card{
+    background-color: #fbc687;
+    margin: 20px auto 20px auto;
+    border: 2px solid black;
+}
+
+.card:last-child{
+    margin-bottom: 40px;
+}
+
+.card-text{
+    padding: 10px;
+}
